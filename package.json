@@ -1,6 +1,6 @@
 {
-  "name": "ng9ng-content-projection",
-  "version": "0.0.0",
+  "name": "ng9-content-projection",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
