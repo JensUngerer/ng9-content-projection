@@ -1,3 +1,1 @@
-<div *ngFor="let itemTemplate of itemTemplates; let index = index;">
-  <ng-template [ngTemplateOutlet]="itemTemplate" [ngTemplateOutletContext]="{ $implicit: items[index] }"></ng-template>
-</div>
+<ng-template [ngTemplateOutlet]="itemTemplate" [ngTemplateOutletContext]="{$implicit: items}"></ng-template>

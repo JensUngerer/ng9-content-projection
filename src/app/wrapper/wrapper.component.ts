@@ -10,7 +10,7 @@ export interface Item {
   styleUrls: ['./wrapper.component.scss']
 })
 export class WrapperComponent implements OnInit {
-  @ContentChildren(TemplateRef) itemTemplates: TemplateRef<any>[];
+  @ContentChild(TemplateRef) itemTemplate: TemplateRef<any>;
 
   items: Item[] = [
     {

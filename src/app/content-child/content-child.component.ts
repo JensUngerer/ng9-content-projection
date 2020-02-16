@@ -9,7 +9,7 @@ import { Item } from '../wrapper/wrapper.component';
 export class ContentChildComponent implements OnInit {
 
   @Input()
-  item: Item;
+  items: Item[];
 
   constructor() { }
 
